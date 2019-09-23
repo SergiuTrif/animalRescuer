@@ -44,6 +44,19 @@ public class App
         veterinarian.specialization = "veterinary surgeon";
 
 
+        Dog dog = new Dog();
+        dog.name = "Jerry";
+        dog.age = 3;
+        dog.happiness = 10;
+        dog.loyalty = 10;
+
+
+
+        Cat cat = new Cat();
+        cat.name = "Lisa";
+        cat.age = 2;
+        cat.favoriteFoodName = "Whiskas";
+        cat.size = 2;
 
 
     }
