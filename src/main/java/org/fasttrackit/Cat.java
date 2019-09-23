@@ -4,4 +4,9 @@ public class Cat extends Animal {
 
     double size;
 
+    public Cat (Adopter adopter){
+
+    }
+
+
 }

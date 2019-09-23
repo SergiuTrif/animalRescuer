@@ -9,5 +9,9 @@ public class AnimalFood {
     LocalDate expirationDate;
     boolean availabilityInStock;
 
+    public AnimalFood(String name){
+
+    };
+
 
 }

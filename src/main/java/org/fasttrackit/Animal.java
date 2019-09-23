@@ -9,4 +9,8 @@ public class Animal {
     String favoriteFoodName;
     String favoriteActivityName;
     int thirstLevel;
+
+
+
+
 }

@@ -22,12 +22,12 @@ public class App
         animal.hungerLevel = 9;
         animal.thirstLevel = 8;
 
-        Adopter adopter = new Adopter();
+        Adopter adopter = new Adopter (animal);
         adopter.name = "Becali";
         adopter.moneyAmount = 1000000;
 
 
-        AnimalFood food = new AnimalFood();
+        AnimalFood food = new AnimalFood("RoyalCanin");
         food.name = "Pedigree";
         food.quantity = 12;
         food.price = 24;
@@ -35,16 +35,16 @@ public class App
         food.availabilityInStock = true;
 
 
-        FunTime funTime = new FunTime();
+        FunTime funTime = new FunTime("running");
         funTime.name = "tug of war";
 
 
-        Veterinarian veterinarian = new Veterinarian();
+        Veterinarian veterinarian = new Veterinarian("Experience");
         veterinarian.name = "Albus";
         veterinarian.specialization = "veterinary surgeon";
 
 
-        Dog dog = new Dog();
+        Dog dog = new Dog(adopter);
         dog.name = "Jerry";
         dog.age = 3;
         dog.happiness = 10;
@@ -52,7 +52,7 @@ public class App
 
 
 
-        Cat cat = new Cat();
+        Cat cat = new Cat(adopter);
         cat.name = "Lisa";
         cat.age = 2;
         cat.favoriteFoodName = "Whiskas";
